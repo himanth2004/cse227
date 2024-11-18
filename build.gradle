@@ -1,0 +1,14 @@
+buildscript {
+    ext.kotlin_version = "1.9.0"  // Define Kotlin version
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.1' // Updated to match version in plugins
+        classpath 'com.google.gms:google-services:4.3.15'
+    }
+}
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '8.1.1' apply false // Updated version to match
+    id 'com.android.library' version '8.1.1' apply false   // Updated version to match
+    id 'org.jetbrains.kotlin.android' version '1.9.0' apply false // Updated Kotlin plugin version to match
+}
